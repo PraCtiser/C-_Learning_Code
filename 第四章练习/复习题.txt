@@ -1,0 +1,67 @@
+1.
+a. char actor[30];
+b. short betsie[100];
+c. float chuck[13];
+d. long double dipsea[64];
+
+2.
+a. array<char,30> actor;
+b. array<short,100> betsie;
+c. array<float,13> chuck;
+d. array<long double,64> dipsea;
+
+3. int ar[5]={1,3,5,7,9};
+
+4. int even=ar[0]+ar[4];
+
+5. cout<<ideas[1];
+
+6. char string1[]="cheeseburger";
+
+7. string string2="Waldorf Salad";
+
+8.
+struct fishes
+{
+    char variety;
+    int weight;
+    float length;
+};
+
+9. fishes fish={carp,20,20};
+
+10. enum Response {No,Yes,Maybe};
+
+11. double *pt=&ted;
+    cout<<*pt<<endl;
+
+12. float *pt=treacle;
+    cout<<*pt<<*(pt+9)<<endl;
+
+13. cout<<"Enter an integer: ";
+    int n;
+    cin>>n;
+    int *pt=new int[n];
+    delete [] pt;
+or
+    cout<<"Enter an integer: ";
+    int n;
+    cin>>n;
+    vector<int> ar(n);
+
+14. 打印出该字符串的地址
+
+15. fishes *pt=new fishes;
+    cout<<pt->variety<<endl;
+    cout<<pt->weight<<endl;
+    cout<<pt->length<<endl;
+    delete pt;
+
+16. 只能读取一个单词
+
+17.#include<vector>
+   #include<array>
+   #include<string>
+   const int n=10;
+   vector<string> ar1(n);
+   array<string,n> ar2;
