@@ -1,2 +1,5 @@
 #Cpp
 .vscode/
+/2.dSYM
+*.out
+*.exe
